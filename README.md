@@ -26,7 +26,7 @@ where `mode` is name of demo model (like *.py file). For example: face_recogniti
 Available models:
 * face_recognition_demo.
 
-Models will be downloaded to `~/openvino/models`.
+Models will be downloaded to `./models`.
 
 ## step 3
 Now python virtual environment need to be created. For this porpose just run script:
@@ -53,7 +53,7 @@ If you would like to change some arguments to run some models please check and u
 
 Some notes about running models:
 * `face_recognition_demo`:
-  * be sure you put photos of your faces in `~/openvino/resources/face_recognition_demo/faces` in format `<name>-<order-num>.jpg`, where `<name>` is name of person (for example Jack or Julia) and `<order-num>` is number from 0 to inf.
+  * be sure you put photos of your faces in `./resources/face_recognition_demo/faces` in format `<name>-<order-num>.jpg`, where `<name>` is name of person (for example Jack or Julia) and `<order-num>` is number from 0 to inf.
 
 ***
 Write to me if you have any queistions!
