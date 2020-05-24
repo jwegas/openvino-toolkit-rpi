@@ -13,4 +13,4 @@ virtualenv ~/venvs/openvino -p python3.7
 
 #  activate venv and install required libraries
 source ~/venvs/openvino/bin/activate
-pip install -U -r requirements.txt
+pip install -U -r requirements.txt --no-cache
