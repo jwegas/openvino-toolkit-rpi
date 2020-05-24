@@ -1,10 +1,13 @@
 # OpenVINO Toolkit for Raspbian OS
 Some scripts to install OpenVINO Toolkit on Raspberry Pi.
 
-Succesfully tested with:
+All resources including OpenVINO Toolkit and Open Model Zoo are downloaded from official web-site: https://docs.openvinotoolkit.org/.
+
+Given scripts succesfully tested with:
 * Rapberry Pi 3 B+;
 * OS Raspbian Buster with desktop by 2020.20 (4.19);
-* Intel Neural Compute Stick 2.
+* Intel Neural Compute Stick 2;
+* Raspberry Pi Camera Module v2.
 
 ## step 1
 Run script `install_openvino.sh`:
@@ -53,5 +56,5 @@ Some notes about running models:
   * be sure you put photos of your faces in `~/openvino/resources/face_recognition_demo/faces` in format `<name>-<order-num>.jpg`, where `<name>` is name of person (for example Jack or Julia) and `<order-num>` is number from 0 to inf.
 
 ***
-Write to me if you have any queistion!
+Write to me if you have any queistions!
 Good luck and have a nice day!
